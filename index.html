@@ -7,6 +7,13 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" href="icon.png" type="image/x-icon">
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        document.querySelectorAll('.link').forEach(link => {
+          link.setAttribute('target', '_blank');
+        });
+      });
+    </script>
   </head>
 <body>
     <div class="container">
